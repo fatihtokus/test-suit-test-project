@@ -14,7 +14,7 @@ public class SeleniumTest {
     public void runTest() throws MalformedURLException {
 
         String fileName = System.getProperty("driverName");
-        System.out.println(fileName+"----------------1");
+        System.out.println(fileName+"----------------");
 
         WebDriver driver;
 

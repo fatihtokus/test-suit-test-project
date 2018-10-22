@@ -24,7 +24,8 @@ public class TestBase {
         String browser = System.getProperty("browser");
         String hub = System.getProperty("hub");
         //String browser = System.getenv("BROWSER");
-        System.out.println("FFFFFFFFFFFFFFFFFff" + browser);
+        System.out.println("FFFFFFFFFFFFFFFFFff browser: " + browser);
+        System.out.println("FFFFFFFFFFFFFFFFFff hub: " + hub);
 
         if ("IE".equals(browser)) {
             throw new RuntimeException("IE is not available");
